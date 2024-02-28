@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-universal-analytics",
+    "name": "kiver/laravel-universal-analytics",
     "description": "A Laravel package to retrieve Google Universal Analytics data.",
     "keywords": [
         "spatie",
