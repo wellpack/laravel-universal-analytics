@@ -17,7 +17,7 @@ Here are a few examples of the provided methods:
 
 ```php
 use Analytics;
-use Spatie\Universal\Analytics\Period;
+use Spatie\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
 Analytics::fetchMostVisitedPages(Period::days(7));
@@ -41,7 +41,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 This package can be installed through Composer.
 
 ``` bash
-composer require spatie/laravel-analytics
+composer require kiver/laravel-universal-analytics
 ```
 
 Optionally, you can publish the config file of this package with this command:
