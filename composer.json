@@ -12,6 +12,7 @@
     ],
     "homepage": "https://github.com/kiver/laravel-universal-analytics",
     "license": "MIT",
+    "version": "4.1.1",
     "authors": [
         {
             "name": "Freek Van der Herten",
@@ -21,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "google/apiclient": "^2.12.6",
         "laravel/framework": "^9.41|^10.0",
         "nesbot/carbon": "^2.63",
@@ -61,6 +62,6 @@
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
