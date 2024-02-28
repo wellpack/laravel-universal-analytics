@@ -1,15 +1,16 @@
 {
-    "name": "spatie/laravel-analytics",
-    "description": "A Laravel package to retrieve Google Analytics data.",
+    "name": "spatie/laravel-universal-analytics",
+    "description": "A Laravel package to retrieve Google Universal Analytics data.",
     "keywords": [
         "spatie",
         "google",
+        "universal",
         "analytics",
         "retrieve",
         "reports",
         "laravel"
     ],
-    "homepage": "https://github.com/spatie/laravel-analytics",
+    "homepage": "https://github.com/kiver/laravel-universal-analytics",
     "license": "MIT",
     "authors": [
         {
@@ -36,22 +37,22 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Analytics\\": "src"
+            "Spatie\\Universal\\Analytics\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Analytics\\AnalyticsServiceProvider"
+                "Spatie\\Universal\\Analytics\\AnalyticsServiceProvider"
             ],
             "aliases": {
-                "Analytics": "Spatie\\Analytics\\AnalyticsFacade"
+                "Analytics": "Spatie\\Universal\\Analytics\\AnalyticsFacade"
             }
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Analytics\\Tests\\": "tests"
+            "Spatie\\Universal\\Analytics\\Tests\\": "tests"
         }
     },
     "config": {

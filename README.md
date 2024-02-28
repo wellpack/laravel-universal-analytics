@@ -17,7 +17,7 @@ Here are a few examples of the provided methods:
 
 ```php
 use Analytics;
-use Spatie\Analytics\Period;
+use Spatie\Universal\Analytics\Period;
 
 //fetch the most visited pages for today and the past week
 Analytics::fetchMostVisitedPages(Period::days(7));
@@ -47,7 +47,7 @@ composer require spatie/laravel-analytics
 Optionally, you can publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="Spatie\Analytics\AnalyticsServiceProvider"
+php artisan vendor:publish --provider="Spatie\Universal\Analytics\AnalyticsServiceProvider"
 ```
 
 The following config file will be published in `config/analytics.php`

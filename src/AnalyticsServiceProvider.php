@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Analytics;
+namespace Spatie\Universal\Analytics;
 
-use Spatie\Analytics\Exceptions\InvalidConfiguration;
+use Spatie\Universal\Analytics\Exceptions\InvalidConfiguration;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -18,13 +18,13 @@ class AnalyticsServiceProvider extends PackageServiceProvider
     public function registeringPackage(): void
     {
         $this->app->bind(AnalyticsClient::class, function () {
-            $analyticsConfig = config('analytics');
+            $analyticsConfig = config('universal-analytics');
 
             return AnalyticsClientFactory::createForConfig($analyticsConfig);
         });
 
         $this->app->bind(Analytics::class, function () {
-            $analyticsConfig = config('analytics');
+            $analyticsConfig = config('universal-analytics');
 
             $this->guardAgainstInvalidConfiguration($analyticsConfig);
 
