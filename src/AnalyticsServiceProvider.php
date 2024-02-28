@@ -33,7 +33,7 @@ class AnalyticsServiceProvider extends PackageServiceProvider
             return new Analytics($client, $analyticsConfig['view_id']);
         });
 
-        $this->app->alias(Analytics::class, 'laravel-analytics');
+        $this->app->alias(Analytics::class, 'laravel-universal-analytics');
     }
 
     protected function guardAgainstInvalidConfiguration(array $analyticsConfig = null): void
