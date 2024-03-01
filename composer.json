@@ -1,5 +1,5 @@
 {
-    "name": "kiver/laravel-universal-analytics",
+    "name": "wellpack/laravel-universal-analytics",
     "description": "A Laravel package to retrieve Google Universal Analytics data.",
     "keywords": [
         "spatie",
@@ -10,7 +10,7 @@
         "reports",
         "laravel"
     ],
-    "homepage": "https://github.com/kiver/laravel-universal-analytics",
+    "homepage": "https://github.com/wellpack/laravel-universal-analytics",
     "license": "MIT",
     "version": "4.1.1",
     "authors": [

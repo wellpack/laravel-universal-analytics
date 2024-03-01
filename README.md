@@ -41,7 +41,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 This package can be installed through Composer.
 
 ``` bash
-composer require kiver/laravel-universal-analytics
+composer require wellpack/laravel-universal-analytics
 ```
 
 Optionally, you can publish the config file of this package with this command:
